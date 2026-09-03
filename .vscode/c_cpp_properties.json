@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**/Start",
+                "${workspaceFolder}/**/start",
+                "${workspaceFolder}/**/Library",
+                "${workspaceFolder}/**/User",
+                "${workspaceFolder}/**/user",
+                "${workspaceFolder}/**/Hardware",
+                "${workspaceFolder}/**/System"
+            ],
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "STM32F10X_MD"
+            ],
+            "cStandard": "c99",
+            "intelliSenseMode": "windows-gcc-arm"
+        }
+    ],
+    "version": 4
+}

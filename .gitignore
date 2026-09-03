@@ -1,0 +1,13 @@
+# Keil 用户个人配置
+*.uvguix.*
+
+# Keil 编译产物
+Objects/
+Listings/
+
+# 常见临时文件
+*.bak
+*.dep
+*.lnp
+*.htm
+*.build_log.htm
